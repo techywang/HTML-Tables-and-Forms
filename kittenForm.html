@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+
+<body>
+    <h1>Kitten Registration!</h1>
+    <form action="">
+        <div>
+            <label for="pet">Pet Name</label>
+            <input type="text" id="pet" name="petName" required>
+            <label for="owner">Owner Name</label>
+            <input type="text" id="owner" name="ownerName" required>
+        </div>
+        <p>Select a Breed: </p>
+        <div>
+            <input type="radio" name="breed" id="munchie" value="munchie">
+            <label for="munchie">Cream Munchkin</label>
+        </div>
+        <div>
+            <input type="radio" name="breed" id="scottie" value="scottie">
+            <label for="scottie">Maple Scottish Fold</label>
+        </div>
+        <div>
+            <input type="radio" name="breed" id="siberie" value="siberie">
+            <label for="siberie">BLue Point Siberian</label>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div>
+            <label for="division">Select Weight Group</label>
+            <select name="division" id="division">
+                <option value="Tea Cup">under 3 lbs</option>
+                <option value="Tiny">3-5 lbs</option>
+                <option value="Mediocre">5-10 lbs</option>
+                <option value="Obese">10+ lbs</option>
+            </select>
+        </div>
+        <button>Register</button>
+
+    </form>
+
+</body>
+
+</html>
